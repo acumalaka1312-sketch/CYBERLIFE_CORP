@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CYBERLIFE - Advanced Cyber Security</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="cyberCanvas"></canvas>
+    
+    <!-- Efek Overlay Garis-garis Scanline -->
+    <div class="scanlines"></div>
+    
+    <header>
+        <div class="logo-slot">
+            <img src="IKON.png"
+              alt="Logo Cyberlife">
+        </div>
+        <div class="company-name glitch" data-text="CYBERLIFE">CYBERLIFE</div>
+    </header>
+
+    <main>
+        <h1 class="glitch" data-text="Pusat Komando Siber Nasional">Pusat Komando Siber Nasional</h1>
+        
+        <div class="content-box">
+            <p>
+                <b>CYBERLIFE</b> bukan sekadar perusahaan keamanan siber biasa; kami adalah benteng digital terakhir bagi kedaulatan informasi Republik Indonesia. Didirikan di bawah mandat khusus, CYBERLIFE memikul tanggung jawab absolut untuk melindungi, mengenkripsi, dan memelihara seluruh ekosistem data strategis nasional dari ancaman asimetris global. Misi kami didorong oleh satu tujuan mutlak: <span class="highlight">perlindungan absolut terhadap informasi tanpa kompromi</span>.
+            </p>
+            <p>
+                Tugas utama kami adalah mengamankan seluruh aset penting negara dari intaian musuh. Ini mencakup arsip intelijen tingkat tinggi, cetak biru pertahanan militer, infrastruktur finansial makroekonomi, hingga identitas digital biometrik dari ratusan juta warga negara. Setiap byte informasi yang masuk ke dalam jaringan kami akan dipecah, disandikan ulang, dan disebar melalui protokol desentralisasi yang tidak memiliki titik kegagalan tunggal (<i>zero single point of failure</i>). Kami memastikan bahwa tidak ada satupun informasi vital yang jatuh ke tangan pihak tak bertanggung jawab.
+            </p>
+            <p>
+                Sistem kami dipacu oleh <b>Nexus-AI</b>, sebuah kecerdasan buatan otonom generasi ketujuh yang memiliki kemampuan <i>machine learning</i> prediktif. Nexus-AI tidak hanya mendeteksi serangan, tetapi menganalisis anomali sebelum ancaman tersebut bermanifestasi. Kami mengimplementasikan teknologi enkripsi tingkat kuantum (<i>Quantum-Grade Encryption</i>) bersertifikasi militer yang membuat data mustahil diretas oleh komputasi konvensional. Selama 24 jam sehari, ribuan analis ancaman siber elit kami bekerja bersisian dengan AI pengawas yang tidak pernah tidur dan tidak pernah lengah.
+            </p>
+            <p>
+                Bagi CYBERLIFE, margin kesalahan adalah nol. Kami dirancang untuk menahan gempuran serangan siber skala global secara serentak, membentengi kedaulatan digital bangsa menuju era masa depan yang tak tersentuh oleh ancaman.
+            </p>
+        </div>
+
+        <h2 class="section-title">INFRASTRUKTUR & FASILITAS</h2>
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <div class="img-box">
+                    <img src="KANTOR.jpg"
+                      alt="Server Inti">
+                    <div class="img-overlay"></div>
+                </div>
+                <div class="item-text">
+                    <h3>Pusat Data Kuantum</h3>
+                    <p>Fasilitas penyimpanan data terdalam yang dibangun 50 meter di bawah permukaan tanah dengan perlindungan bunker anti-radiasi elektromagnetik (EMP). Dilengkapi dengan server berlapis paduan khusus, enkripsi tingkat militer (AES-4096-CTR), dan sistem pendingin aktif berbasis nitrogen cair yang memastikan stabilitas operasional pada beban komputasi ekstrem tanpa henti.</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="img-box">
+                    <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=500&q=80" alt="Ruang Kontrol">
+                    <div class="img-overlay"></div>
+                </div>
+                <div class="item-text">
+                    <h3>Pusat Komando Utama</h3>
+                    <p>Saraf pusat operasi siber nasional. Ruangan ini dilengkapi pemantauan lalu lintas data global secara <i>real-time</i>. Tim analis intelijen ancaman (<i>Threat Intelligence</i>) elit kami bekerja dalam sinkronisasi dengan algoritma AI untuk melakukan pencegatan, netralisasi malware, dan pelacakan balik (<i>trace-back</i>) terhadap IP peretas di seluruh dunia dalam hitungan milidetik.</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <div class="img-box">
+                    <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=500&q=80" alt="Sistem Keamanan">
+                    <div class="img-overlay"></div>
+                </div>
+                <div class="item-text">
+                    <h3>Protokol Pertahanan</h3>
+                    <p>Menggunakan arsitektur <i>Intrusion Prevention System</i> (IPS) dinamis dan firewall mutasi polimorfik. Sistem ini secara otomatis menulis ulang struktur pertahanannya setiap 3 detik. Kemampuan adaptasi ekstrem ini membuat senjata siber tercanggih sekalipun, termasuk <i>Zero-Day Exploit</i> dan agresi DDoS berskala masif, hancur sebelum menyentuh gerbang perimeter luar jaringan.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="terminal-box">
+            <div class="terminal-header">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="terminal-title">SYS.ADMIN_CONSOLE</span>
+            </div>
+            <div class="terminal-body">
+                <p id="terminal-output"></p><span class="cursor"></span>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-section">
+            <h3>Lokasi Perusahaan</h3>
+            <p>Gedung CyberLife Tower, Lantai 99</p>
+            <p>Jl. Jendral soedirman</p>
+            <p>Jakarta, Indonesia 10220</p>
+        </div>
+        <div class="footer-section">
+            <h3>Kontak Resmi</h3>
+            <p>Telepon: +62-8263-9922 (Secure Line)</p>
+            <p>Email: cyberlifeidn.gmail.com</p>
+            <p>Kontak laporan Siber: (0251) 730313</p>
+        </div>
+        <div class="footer-section">
+            <h3>Status Jaringan</h3>
+            <ul>
+                <li class="status-online">[ Server Inti ] : ONLINE</li>
+                <li class="status-online">[ Enkripsi ] : AKTIF (Tingkat 5)</li>
+                <li class="status-online">[ Firewall ] : PERTAHANAN MAKSIMAL</li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
